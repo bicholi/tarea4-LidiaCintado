@@ -13,4 +13,15 @@ public class Personas {
     String nombre;
     String ape;
     int edad;
+
+    public Personas(String nombre, String ape, int edad) {
+        this.nombre = nombre;
+        this.ape = ape;
+        this.edad = edad;
+    }
+
+    public Personas() {
+    }
+    
+    
 }

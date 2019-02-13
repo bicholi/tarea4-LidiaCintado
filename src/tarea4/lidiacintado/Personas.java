@@ -22,6 +22,37 @@ public class Personas {
 
     public Personas() {
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApe() {
+        return ape;
+    }
+
+    public void setApe(String ape) {
+        this.ape = ape;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    @Override
+    public String toString() {
+        return "Personas{" + "nombre=" + nombre + ", ape=" + ape + ", edad=" + edad + '}';
+    }
+    
+    
     
     
 }

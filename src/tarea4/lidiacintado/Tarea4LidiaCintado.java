@@ -15,7 +15,11 @@ public class Tarea4LidiaCintado {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Personas persona_1 = new Personas();
+        Personas persona_2 = new Personas("David","Martin",21);
+        
+        System.out.println(persona_1);
+        System.out.println(persona_2);
     }
     
 }
